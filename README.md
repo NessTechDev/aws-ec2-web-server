@@ -8,16 +8,16 @@ This project demonstrates deploying a basic web server using using AWS EC2 and A
 
 ![Architecture Diagram](architecture-diagram.png)
 
-## Project Overview
+## 📌  Project Overview
 - Launched EC2 instance (Amazon Linux 2023)
 - Connected via SSH using key pair authentication
 - Installed and configured Apache (httpd)
-- Configured security groups for HTTP and SSH access
+- Configured security groups (SSH & HTTP)
 - Hosted a live website
 
 ---
 
-## Tech Used
+## 🛠️  Tech Used
 - AWS EC2
 - Linux (Amazon Linux 2023)
 - Apache (httpd)
@@ -26,7 +26,7 @@ This project demonstrates deploying a basic web server using using AWS EC2 and A
 - Git & GitHub
 
 ---
-## Project Screenshots
+## 📸  Project Screenshots
 
 ### SSH Connection
 ![SSH Terminal](screenshots/ssh-terminal.jpeg)
@@ -39,7 +39,7 @@ A publicly accessible web server running on AWS
 
 ---
 
-## What I Learned
+## 📈  What I Learned
 
 - How to launch and configure EC2 instances
 - Basics of cloud networking and security groups
@@ -49,13 +49,26 @@ A publicly accessible web server running on AWS
 
 ---
 
-## Next Steps
+## 🚀 Next Steps
 
-- Improve website design using CSS
-- Containerize application with Docker
-- Expand into full cloud architecture
+- Add CSS styling to improve UI/UX
+- Introduce JavaScript for interactivity
+- Containerize application using Docker
+- Expand into scalable cloud architecture
 
 ---
 
-## Author
+## 💡 Project Goal
+
+This project is part of my journey transitioning from IT Support into Cloud and DevOps, focusing on building real, hands-on infrastructure experience.
+
+---
+
+## 👤 Author
+
 NessTechDev
+Cloud & IT Support | AWS | DevOps (In Progress)
+
+GitHub: https://github.com/NessTechDev
+LinkedIn: https://linkedin.com/in/goodness-ejionye-86315b248
+X (Twitter): https://x.com/nesstechdev
