@@ -1,60 +1,78 @@
-# AWS EC2 Web Server Project
+# AWS EC2 Web Server Deployment 🚀
 
-This project demonstrates deploying a basic web server using using AWS EC2 and Apache
+This project demonstrates deploying a web server on AWS using EC2 and Apache, simulating a real-world cloud infrastructure setup.
 
 ---
 
-## Architecture Diagram
+## 📌 Overview
+
+In this project, I built and deployed a web server from scratch using AWS services and Linux administration.
+
+### Key Actions:
+- Launched an EC2 instance (Amazon Linux)
+- Configured security groups (SSH & HTTP access)
+- Connected to the instance via SSH
+- Installed and configured Apache (httpd)
+- Deployed a custom HTML webpage
+
+---
+
+## 🧱 Architecture Diagram
 
 ![Architecture Diagram](architecture-diagram.png)
 
-## 📌  Project Overview
-- Launched EC2 instance (Amazon Linux 2023)
-- Connected via SSH using key pair authentication
-- Installed and configured Apache (httpd)
-- Configured security groups (SSH & HTTP)
-- Hosted a live website
-
 ---
 
-## 🛠️  Tech Used
+## 🛠️ Technologies Used
+
 - AWS EC2
-- Linux (Amazon Linux 2023)
+- Linux (Amazon Linux / Ubuntu)
 - Apache (httpd)
-- Networking (Security Groups)
 - SSH
 - Git & GitHub
 
 ---
-## 📸  Project Screenshots
 
-### SSH Connection
-![SSH Terminal](screenshots/ssh-terminal.jpeg)
+## 📂 Project Walkthrough
 
-### Live Web Page
-![Web Page](screenshots/web-page.jpeg)
+Instead of cluttering this page with screenshots, each phase of the project is organized below:
 
-## Result
-A publicly accessible web server running on AWS
+### 🔹 Day 1 – Setup & Configuration
+- EC2 setup
+- Security groups
+- SSH connection
+- Architecture diagram
+
+👉 View details: [Day 1 Folder](./day-1)
 
 ---
 
-## 📈  What I Learned
+### 🔹 Day 2 – Web Server Deployment
+- Apache installation
+- Website deployment
+- HTML/CSS customization
+- UI improvements
 
-- How to launch and configure EC2 instances
-- Basics of cloud networking and security groups
-- Connecting to remote servers using SSH
-- Deploying a web server with Apache
-- Managing and documenting projects with Git
+👉 View details: [Day 2 Folder](./day-2)
+
+---
+
+## 📈 What I’m Learning
+
+- Provisioning and configuring cloud infrastructure
+- Managing security groups and network access
+- Remote server access using SSH
+- Installing and managing web servers (Apache)
+- Structuring and documenting projects using Git
 
 ---
 
 ## 🚀 Next Steps
 
-- Add CSS styling to improve UI/UX
-- Introduce JavaScript for interactivity
-- Containerize application using Docker
-- Expand into scalable cloud architecture
+- Adding CSS styling to improve UI/UX
+- Introducing JavaScript for interactivity
+- Containerizing the application using Docker
+- Expanding into scalable cloud architecture
 
 ---
 
