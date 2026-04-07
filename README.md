@@ -3,6 +3,10 @@
 ## Overview
 Deployed a cloud-based web server using AWS EC2.
 
+## Architecture Diagram
+
+![Architecture Diagram](architecture-diagram.png)
+
 ## What I did
 - Launched EC2 instance (Amazon Linux 2023)
 - Connected via SSH using key pair authentication
