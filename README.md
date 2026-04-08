@@ -1,25 +1,18 @@
 # AWS EC2 Web Server Deployment 🚀
 
-This project demonstrates deploying a web server on AWS using EC2 and Apache, simulating a real-world cloud infrastructure setup.
+This project demonstrates deploying and evolving a web application on AWS using EC2, Linux, Apache, and Docker — simulating a real-world cloud and DevOps workflow.
 
 ---
 
 ## 📌 Overview
 
-In this project, I built and deployed a web server from scratch using AWS services and Linux administration.
-
-### Key Actions:
-- Launched an EC2 instance (Amazon Linux)
-- Configured security groups (SSH & HTTP access)
-- Connected to the instance via SSH
-- Installed and configured Apache (httpd)
-- Deployed a custom HTML webpage
+In this project, I built and deployed a web server from scratch, then progressively improved it across multiple days by introducing containerization, frontend enhancements, and real-world debugging.
 
 ---
 
-## 🧱 Architecture Diagram
+## 🧱 Architecture (Simplified)
 
-![Architecture Diagram](architecture-diagram.png)
+User → Internet → EC2 Instance → Docker Container → Apache → Web App
 
 ---
 
@@ -28,57 +21,72 @@ In this project, I built and deployed a web server from scratch using AWS servic
 - AWS EC2
 - Linux (Amazon Linux / Ubuntu)
 - Apache (httpd)
+- Docker
 - SSH
+- HTML / CSS / JavaScript
 - Git & GitHub
 
 ---
 
-## 📂 Project Walkthrough
+## 📆 Project Progress
 
-Instead of cluttering this page with screenshots, each phase of the project is organized below:
+### 🔹 Day 1 — EC2 Setup & Web Server Deployment
+- Launched EC2 instance
+- Configured security groups
+- Connected via SSH
+- Installed Apache
+- Deployed initial HTML page
 
-### 🔹 Day 1 – Setup & Configuration
-- EC2 setup
-- Security groups
-- SSH connection
-- Architecture diagram
-
-👉 View details: [Day 1 Folder](./day-1)
+👉 [View Day 1](./day-1)
 
 ---
 
-### 🔹 Day 2 – Web Server Deployment
-- Apache installation
-- Website deployment
-- HTML/CSS customization
-- UI improvements
+### 🔹 Day 2 — Frontend Development & Styling
+- Added CSS styling
+- Improved layout and structure
+- Introduced basic UI design
+- Organized project structure
 
-👉 View details: [Day 2 Folder](./day-2)
+👉 [View Day 2](./day-2)
+
+---
+
+### 🔹 Day 3 — Docker & UI Enhancements
+- Installed Docker
+- Containerized the application
+- Replaced Apache with Docker deployment
+- Debugged container and port issues
+- Added animations using JavaScript (Anime.js)
+- Enhanced UI with modern styling and interactions
+
+👉 [View Day 3](./day-3)
 
 ---
 
 ## 📈 What I’m Learning
 
-- Provisioning and configuring cloud infrastructure
-- Managing security groups and network access
-- Remote server access using SSH
-- Installing and managing web servers (Apache)
-- Structuring and documenting projects using Git
+- Cloud infrastructure provisioning and management
+- Linux server administration
+- Containerization with Docker
+- Debugging real-world deployment issues
+- Frontend enhancement and UI/UX design
+- Structuring and documenting technical projects
 
 ---
 
 ## 🚀 Next Steps
 
-- Adding CSS styling to improve UI/UX
-- Introducing JavaScript for interactivity
-- Containerizing the application using Docker
-- Expanding into scalable cloud architecture
+- Implement CI/CD pipeline (GitHub Actions)
+- Add domain name and HTTPS
+- Convert project into a multi-page blog system
+- Introduce Docker Compose
+- Continue improving UI/UX
 
 ---
 
 ## 💡 Project Goal
 
-This project is part of my journey transitioning from IT Support into Cloud and DevOps, focusing on building real, hands-on infrastructure experience.
+This project is part of my journey transitioning from IT Support into Cloud and DevOps, focusing on building real, hands-on infrastructure and deployment experience.
 
 ---
 
